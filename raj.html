@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Gym website</title>
+</head>
+
+<style>
+   .container{
+      border: 2px solid red;
+      height: 800px;
+      background-image: url('https://i.pinimg.com/originals/d1/aa/c1/d1aac16a9fd43f1bfca9eb1a141d7322.jpg');
+      color: white;
+
+   }
+   .left{
+      
+      display: inline-block;
+      left: 10px;
+      position: absolute;
+   }
+   .mid{
+      
+      display: inline-block;
+      margin: 30px auto;
+      width: 50%;
+      display: flex;
+      
+   }
+   .right{
+      
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 11px;
+      color: white;
+      background-color: blue;
+   }
+   .navbar li{
+      float: left;
+      list-style: none;
+      font-size: 30px;
+      
+   }
+   .navbar li a{
+      text-decoration: none;
+      
+      color: white;
+      float: left;
+   }
+   .form{
+      font-size: 25px;
+      color: goldenrod;
+   }
+   .end a{
+      color: aqua;
+      text-decoration: none;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border: 2px solid red;
+   }
+</style>
+
+<body>
+   <div class="container">
+      <div class="left">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo_100x100.jpg">      
+      </div>
+      <div class="mid">
+         <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            &nbsp; &nbsp; &nbsp; &nbsp;<li><a href="#"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Contact us</a></li>
+            <li><a href="#"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Help</a></li>
+            <li><a href="#"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Payment</a></li>
+         </ul>
+      </div>
+
+      <div class="right">
+      <h1>Login/ Sign up</h1>
+      </div>
+      <br><br>
+      <div class="form">
+         <form action="backend.php">
+            <h1>Register Today!</h1>
+            Name: <input type="text" placeholder="enter your name">
+            <br> <br> Age: <input type="text" placeholder="enter your age ">
+            <br> <br> Sex: <input type="checkbox"> Male <input type="checkbox"> Female <input type="checkbox"> Other
+            <br> <br> Date of Birth: <input type="date">
+            <br> <br> Mobile: <input type="text" aria-placeholder="mobile number"> 
+            <br> <br> Submit the form: <input type="submit">
+            <br> <br> Reset: <input type="reset">
+         </form>
+      </div>
+      <br><br><br>
+      Follow us on
+      <div class="end">
+         <a href="https://www.youtube.com/">Youtube</a>
+         <a href="https://www.twitter.com">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Twitter</a>
+         <a href="https://www.facebook.com">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Facebook</a>
+      </div>
+   </div>
+   
+</body>
+</html>
